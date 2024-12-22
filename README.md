@@ -17,7 +17,7 @@
 ## Enlaces importantes
 
 - **Web funcional:** [AutoShop en GitHub Pages](https://crespoc.github.io/JavaScript-Final-Project/)
-- **Repositorio GitHub:** [AutoShop - TalentoTech FrontEnd Project](https://github.com/crespoc/TalentoTech-FrontEnd-Project)
+- **Repositorio GitHub:** [AutoShop - TalentoTech FrontEnd Project](https://github.com/crespoc/JavaScript-Final-Project.git)
 
 ---
 
