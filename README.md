@@ -41,8 +41,8 @@ El proyecto está organizado de la siguiente manera:
 ```
 Proyecto/
 ├── index.html      # Archivo HTML principal
-├── style.css       # Estilos CSS personalizados
-├── script.js       # Lógica y funcionalidad de la aplicación
+├── autos.css       # Estilos CSS personalizados
+├── autos.js        # Lógica y funcionalidad de la aplicación
 └── README.md       # Archivo explicativo del proyecto
 ```
 
@@ -51,10 +51,10 @@ Proyecto/
 #### 1. `index.html`
 Contiene la estructura principal del proyecto, dividida en secciones para una navegación intuitiva.
 
-#### 2. `style.css`
+#### 2. `autos.css`
 Archivo que define los estilos visuales, desde colores y tipografía hasta el diseño responsivo.
 
-#### 3. `script.js`
+#### 3. `autos.js`
 Incluye la funcionalidad de la aplicación, como la navegación entre secciones y la integración con la API externa.
 
 ## Instalación y Uso
