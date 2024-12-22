@@ -10,8 +10,6 @@ Este proyecto consiste en un sistema web interactivo diseñado para mostrar info
 4. [Estructura del Proyecto](#estructura-del-proyecto)
 5. [Instalación y Uso](#instalación-y-uso)
 6. [Contribuciones](#contribuciones)
-7. [Licencia](#licencia)
-
 ---
 
 ## Descripción del Proyecto
@@ -92,11 +90,4 @@ Incluye la funcionalidad de la aplicación, como la navegación entre secciones 
    ```
 5. Abre un pull request en el repositorio original.
 
-## Licencia
-
-Este proyecto está licenciado bajo la [MIT License](LICENSE). Puedes usar, modificar y distribuir este proyecto libremente, siempre que incluyas la licencia original.
-
----
-
-**¡Gracias por visitar este proyecto! Si tienes algún comentario o sugerencia, no dudes en contactarme.**
 
