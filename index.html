@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venta de Autos</title>
+    <link rel="stylesheet" href="autos.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <script defer src="autos.js"></script>
+</head>
+<body>
+    
+    <!-- Contenedor principal que abarca toda la página -->
+    <div class="container">
+    
+        <header>
+            <h1 class="montserrat">Bienvenido a AutoShop</h1>
+        </header>
+
+        <nav>
+            <a href="#" data-section="about" class="montserrat">Home</a>
+            <a href="#" data-section="vehiculos" class="montserrat">Vehículos</a>
+            <a href="#" data-section="shop" class="montserrat">Accesorios</a>
+            <a href="#" data-section="contacto" class="montserrat">Contacto</a>
+        </nav>
+
+        <main>
+            <section id="about" class="about">
+
+                <div class="video-background">
+                    <iframe 
+                        class="video" 
+                        src="https://www.youtube.com/embed/JhA9-JYLFyo?autoplay=1&mute=1&loop=1&playlist=JhA9-JYLFyo&controls=0&modestbranding=1&rel=0" 
+                         
+                        frameborder="0" 
+                        allow="autoplay; encrypted-media" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+
+                <h2 class="Nosotros">Buscar vehículo por modelo</h2>
+                    <p class="Nosotros">Busca información sobre un modelo de auto a continuación:</p>
+                        <form id="car-form" class="sobreNosotros">
+                            <label for="car-model">Modelo del auto:</label>
+                            <input type="text" id="car-model" name="car-model" placeholder="Ejemplo: Camry, Corolla, Astro, etc." required />
+                            <button type="submit" class="cta">Buscar</button>
+                        </form>
+                <div id="car-info" class="car-info">
+                    <!-- Aquí se mostrarán los resultados -->
+                </div>                
+                <h2 class="Nosotros">Sobre Nosotros</h2>
+                    <p class="sobreNosotros">
+                        Somos una empresa dedicada a la venta de autos de calidad con más de 10 años de experiencia en el mercado. Nuestro compromiso es ofrecer a nuestros clientes una experiencia de compra confiable y transparente, asegurándonos de que cada vehículo cumple con los más altos estándares de calidad y seguridad. En Autoshop, creemos en la importancia de la satisfacción del cliente, por lo que brindamos asesoramiento personalizado y un servicio postventa excepcional.
+                        Contamos con un equipo de expertos que te acompañarán en cada paso, desde la selección del vehículo ideal hasta la finalización de la compra, ofreciéndote opciones de financiamiento adaptadas a tus necesidades. Nuestra misión es ayudarte a encontrar el auto perfecto para ti, ya sea un auto nuevo o seminuevo, siempre garantizando que obtengas la mejor relación entre calidad y precio.
+                        En Autoshop, más que vender autos, construimos relaciones de confianza. ¡Visítanos y descubre por qué somos la opción preferida de tantos conductores!
+                    </p>
+            </section>
+
+            <section id="vehiculos" class="vehiculos">
+                <h2>Vehículos</h2>
+                <p>Tenemos una amplia variedad de autos de todas las marcas, nuevos y seminuevos.</p>
+                <div class="catalogo">
+                    <div class="vehiculo">
+                        <img src="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/nameplate/territory/landing/360/exterior/territory-06.jpg.dam.full.high.jpg/1680506152194.jpg" alt="Territory">
+                        <h3>Ford Territory</h3>
+                        <button class="quote-button">Solicitar Cotización</button>    
+                    </div>
+                    <div class="vehiculo">
+                        <img src="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/nameplate/bronco-sport/prelaunch/big-bend-feb-24/colorizer/blanco-oxford/far-bronco-sport-big-bend-color-blanco-oxford.jpg.dam.full.high.jpg/1708546322888.jpg" alt="Territory">
+                        <h3>Ford Bronco Sport</h3>
+                        <button class="quote-button">Solicitar Cotización</button>    
+                    </div>
+                    <div class="vehiculo">
+                        <img src="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/nameplate/maverick/colorizer-feb-24/colorizer/azul-relampago/far-maverick-colorizer-azul-relampago.jpg.dam.full.high.jpg/1709242271361.jpg" alt="Territory">
+                        <h3>Ford Maverick</h3>
+                        <button class="quote-button">Solicitar Cotización</button>    
+                    </div>
+                    <div class="vehiculo">
+                        <img src="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/nameplate/raptor/2023/colorizer/naranja-metalico/far-nameplate-color-naranja-metalico.jpg.dam.full.high.jpg/1680506823908.jpg" alt="Territory">
+                        <h3>Ford Ranger</h3>
+                        <button class="quote-button">Solicitar Cotización</button>    
+                    </div>
+                    <div class="vehiculo">
+                        <img src="https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/nameplate/raptor/2023/colorizer/blanco-artico/far-nameplate-color-blanco-artico.jpg.dam.full.high.jpg/1680506824104.jpg" alt="Territory">
+                        <h3>Ford Raptor</h3>
+                        <button class="quote-button">Solicitar Cotización</button>    
+                    </div>
+                    <div class="vehiculo">
+                        <img src="https://www.ford.mx/content/dam/Ford/website-assets/latam/mx/nameplate/f-150/2024/overview/dimensiones/ford-f150-2024-camioneta-pickup-medidas-dimensiones-versiones-cabina-3.jpg/jcr:content/renditions/small.jpeg" alt="Territory">
+                        <h3>Ford F-150 Lariat</h3>
+                        <button class="quote-button">Solicitar Cotización</button>    
+                    </div>
+                    <div class="vehiculo">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwKfsXjJbeaD1aVG5ZJR7wrFqdmR0AHh7G3g&s" alt="Territory">
+                        <h3>Ford Transit Van</h3>
+                        <button class="quote-button">Solicitar Cotización</button>    
+                    </div>
+                </div>
+            </section>
+
+            <section id="shop" class="shop">
+                <h2>Accesorios</h2>
+                <p>Compra los accesorios necesarios para tu vehiculo desde la comodidad de tu hogar con nuestras opciones de compra online.</p>
+            </section>
+
+            <section id="contacto" class="contacto">
+                <h2>Contacto</h2>
+                <p>Puedes contactarnos a través del siguiente formulario.</p>
+                <div class="contact-container">
+                    <form action="https://formspree.io/f/mldejayb" method="POST" class="contact-form">
+                        <div class="form-group">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="apellido">Apellido:</label>
+                            <input type="text" id="apellido" name="apellido" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="correo">Correo Electrónico:</label>
+                            <input type="email" id="correo" name="correo" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telefono">Teléfono:</label>
+                            <input type="tel" id="telefono" name="telefono" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="vehiculo">Vehículo de Interés:</label>
+                            <select id="vehiculo" name="vehiculo" required>
+                                <option value="">Selecciona un vehículo</option>
+                                <option value="SUV">SUV</option>
+                                <option value="Sedán">Sedán</option>
+                                <option value="Deportivo">Deportivo</option>
+                                <option value="Camioneta">Camioneta</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="cta">Enviar</button>
+                    </form>
+                    <h2>Ubicación</h2>
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13132.580903412285!2d-58.393934676513986!3d-34.62577015995631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb2520946ad7%3A0x531f8f8d460384ad!2sConstituci%C3%B3n%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1729138269894!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </section>
+            
+        </main>
+
+        <footer>
+            <p class="montserrat">AutoShop 2024</p>
+        </footer>
+    </div>
+
+</body>
+</html>
